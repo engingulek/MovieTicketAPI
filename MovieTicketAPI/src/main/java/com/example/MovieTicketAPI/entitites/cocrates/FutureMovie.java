@@ -42,6 +42,9 @@ public class FutureMovie {
 
          @Column(name = "movieinfo")
         private  String movieInfo;
+
+        @Column(name = "castid")
+        private Integer castid;
         
           
 }

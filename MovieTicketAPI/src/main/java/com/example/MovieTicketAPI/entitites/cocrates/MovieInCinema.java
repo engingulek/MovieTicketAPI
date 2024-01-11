@@ -38,6 +38,9 @@ public class MovieInCinema {
 
          @Column(name = "movieinfo")
         private  String movieInfo;
+
+        @Column(name = "castid")
+        private Integer castid;
         
          
           
